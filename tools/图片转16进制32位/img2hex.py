@@ -155,6 +155,5 @@ def main():
 
     write_logisim_memory(img_hex_list, "", num_flag=1)
 
-
 if __name__ == "__main__":
     main()
