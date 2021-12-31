@@ -3,7 +3,7 @@ import numpy as np
 from pprint import pprint as pp
 
 
-def get_gray(path, seed=0.3, black=0, show=0):
+def get_gray(path, seed=0.3, black=0, show=1):
     assert path.split(".")[1] == "png" or path.split(".")[1] == "jpg", \
         "请传入正确图片格式的路径!"
     im = plt.imread(path)
