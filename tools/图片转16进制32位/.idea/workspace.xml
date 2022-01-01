@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd6ab69e-0822-426d-a526-07aa8203c333" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/图像显示属性.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/图像显示属性.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../logisim_project/vending_machine.circ" beforeDir="false" afterPath="$PROJECT_DIR$/../../logisim_project/vending_machine.circ" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/图片转16进制32位.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/图片转16进制32位.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img2hex.py" beforeDir="false" afterPath="$PROJECT_DIR$/img2hex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/all.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/all.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +112,7 @@
       <updated>1640848357244</updated>
       <workItem from="1640848358617" duration="5362000" />
       <workItem from="1640936780951" duration="5424000" />
+      <workItem from="1641026874442" duration="5191000" />
     </task>
     <servers />
   </component>
@@ -128,9 +129,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/1632$text2hex.coverage" NAME="text2hex 覆盖结果" MODIFIED="1640936920797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/1632$img2hex.coverage" NAME="img2hex 覆盖结果" MODIFIED="1640937006567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1632$img2hex.coverage" NAME="img2hex 覆盖结果" MODIFIED="1641040308556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

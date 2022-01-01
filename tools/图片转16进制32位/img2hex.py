@@ -54,13 +54,14 @@ def get_hex(array_im):
     return pixel_list
 
 
-def write_logisim_memory(black_imgs: list, old_path: str, num_flag=0):
+def write_logisim_memory(black_imgs: list, old_path: str, num_flag=0, header_zero=1):
     if num_flag == 0:
         new_path = "./output/" + old_path.split(".")[0] + ".txt"
         with open(new_path, 'w', encoding='utf-8') as file_object:
             file_object.write(str("v2.0 raw\n"))
-            for i in range(32):
-                file_object.write("00000000" + "\n")
+            if header_zero == 1:
+                for i in range(32):
+                    file_object.write("00000000" + "\n")
             for hex_info in black_imgs:
                 # 格式化为8位16进制
                 info = str(hex_info).replace('0x', '')
@@ -75,8 +76,9 @@ def write_logisim_memory(black_imgs: list, old_path: str, num_flag=0):
         w_path = "./output/all.txt"
         with open(w_path, 'w', encoding='utf-8') as file_object:
             file_object.write(str("v2.0 raw\n"))
-            for i in range(32):
-                file_object.write("00000000" + "\n")
+            if header_zero == 1:
+                for i in range(32):
+                    file_object.write("00000000" + "\n")
             for black_img in black_imgs:
                 for hex_info in black_img:
                     # 格式化为8位16进制
@@ -92,6 +94,11 @@ def write_logisim_memory(black_imgs: list, old_path: str, num_flag=0):
 
 def main():
     img_hex_list = []
+
+    hi_path = 'source/img/欢迎页.png'
+    hi_gray_img = get_gray(hi_path, black=1)
+    hi_hex = get_hex(hi_gray_img)
+    img_hex_list.append(hi_hex)
 
     colo_path = 'source/img/可乐罐装.png'
     colo_gray_img = get_gray(colo_path, seed=0.45)
@@ -153,7 +160,8 @@ def main():
     admin_hex = get_hex(admin_gray_img)
     img_hex_list.append(admin_hex)
 
-    write_logisim_memory(img_hex_list, "", num_flag=1)
+    write_logisim_memory(img_hex_list, "", num_flag=1, header_zero=0)
+
 
 if __name__ == "__main__":
     main()
