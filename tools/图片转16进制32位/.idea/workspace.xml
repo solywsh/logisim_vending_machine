@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd6ab69e-0822-426d-a526-07aa8203c333" name="默认变更列表" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Documentation/图像显示属性.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/图像显示属性.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../logisim_project/vending_machine.circ" beforeDir="false" afterPath="$PROJECT_DIR$/../../logisim_project/vending_machine.circ" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img2hex.py" beforeDir="false" afterPath="$PROJECT_DIR$/img2hex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/all.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/all.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +23,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../视频输出" />
   </component>
   <component name="RunManager" selected="Python.img2hex">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -113,6 +110,7 @@
       <workItem from="1640848358617" duration="5362000" />
       <workItem from="1640936780951" duration="5424000" />
       <workItem from="1641026874442" duration="5191000" />
+      <workItem from="1641056140765" duration="544000" />
     </task>
     <servers />
   </component>
